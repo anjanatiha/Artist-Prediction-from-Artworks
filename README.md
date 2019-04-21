@@ -25,8 +25,7 @@ Portfolio        : <a href=https://anjanatiha.wixsite.com/website>Anjana Tiha's 
 ##### 1.
 <pre>
 Link             : <a href=http://cs231n.stanford.edu/reports/2017/pdfs/406.pdf>Artist Identification with Convolutional Neural Networks</a>
-</pre>
-<pre>
+
 @article{viswanathan2017artist,
   title={Artist Identification with Convolutional Neural Networks},
   author={Viswanathan, Nitin},
