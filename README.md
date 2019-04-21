@@ -113,7 +113,7 @@ Number of Class         : 50
 <pre>
 Languages               : Python
 Tools/IDE               : Kaggle
-Libraries               : Keras, TensorFlow, NasNetMobile
+Libraries               : Keras, TensorFlow, InceptionResNetV3
 </pre>
 
 #### Dates
