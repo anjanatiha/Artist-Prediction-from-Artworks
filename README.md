@@ -22,31 +22,51 @@ Portfolio        : <a href=https://anjanatiha.wixsite.com/website>Anjana Tiha's 
 </pre>
 
 #### Relevant Papers
+##### 1.
 <pre>
-GitHub Link      : <https://peerj.com/articles/4568/>Pre-trained convolutional neural networks as feature extractors toward improved malaria parasite detection in thin blood smear images (peerj)</a>
+Link             : <http://cs231n.stanford.edu/reports/2017/pdfs/406.pdf>Artist Identification with Convolutional Neural Networks</a>
 </pre>
 <pre>
-@article{rajaraman2018pre,
-  title={Pre-trained convolutional neural networks as feature extractors toward improved malaria parasite detection in thin blood smear images},
-  author={Rajaraman, Sivaramakrishnan and Antani, Sameer K and Poostchi, Mahdieh and Silamut, Kamolrat and Hossain, Md A and Maude, Richard J and Jaeger, Stefan and Thoma, George R},
-  journal={PeerJ},
-  volume={6},
-  pages={e4568},
+@article{viswanathan2017artist,
+  title={Artist Identification with Convolutional Neural Networks},
+  author={Viswanathan, Nitin},
+  journal={transfer},
+  volume={77},
+  pages={89--8},
+  year={2017}
+}
+</pre>
+
+##### 2.
+<pre>
+Link             : <http://www.vcl.fer.hr/papers_pdf/Fine-tuning%20Convolutional%20Neural%20Networks%20for%20fine%20art%20classification.pdf>Fine-tuning Convolutional Neural Networks for fine art classification</a>
+</pre>
+<pre>
+@article{cetinic2018fine,
+  title={Fine-tuning Convolutional Neural Networks for fine art classification},
+  author={Cetinic, Eva and Lipic, Tomislav and Grgic, Sonja},
+  journal={Expert Systems with Applications},
+  volume={114},
+  pages={107--118},
   year={2018},
-  publisher={PeerJ Inc.}
+  publisher={Elsevier}
+}
 </pre>
 
 #### Dataset
 <pre>
-Dataset Name     : Malaria Cell Images Dataset
-Dataset Link     : <a href=https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria>Malaria Cell Images Dataset (Kaggle)</a>
-Original Dataset : <a href=https://ceb.nlm.nih.gov/repositories/malaria-datasets/>Malaria Datasets - National Institutes of Health (NIH)</a>
+Dataset Name     : Best Artworks of All Time
+Dataset Link     : <a href=https://www.kaggle.com/ikarus777/best-artworks-of-all-time>Best Artworks of All Time (Kaggle)</a>
+<!--
+Original Dataset : <a href=https://ceb.nlm.nih.gov/repositories/malaria-datasets/>Malaria Datasets - National Institutes of Health (NIH)
+-->
+</a>
 </pre>
 
 ### Dataset Details
 <pre>
-Dataset Name            : Malaria Cell Images Dataset
-Number of Class         : 2
+Dataset Name            : Best Artworks of All Time
+Number of Class         : 50
 </pre>
 
 | Dataset Subtype | Number of Image | Size(MB/Megabyte)            |
