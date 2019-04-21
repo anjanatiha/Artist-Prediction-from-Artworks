@@ -23,7 +23,7 @@ Portfolio        : <a href=https://anjanatiha.wixsite.com/website>Anjana Tiha's 
 
 #### Relevant Papers
 ##### 1.
-Link             : <http://cs231n.stanford.edu/reports/2017/pdfs/406.pdf>Artist Identification with Convolutional Neural Networks</a>
+Link             : <a href=http://cs231n.stanford.edu/reports/2017/pdfs/406.pdf>Artist Identification with Convolutional Neural Networks</a>
 <pre>
 @article{viswanathan2017artist,
   title={Artist Identification with Convolutional Neural Networks},
@@ -37,7 +37,7 @@ Link             : <http://cs231n.stanford.edu/reports/2017/pdfs/406.pdf>Artist 
 
 ##### 2.
 <pre>
-Link             : <http://www.vcl.fer.hr/papers_pdf/Fine-tuning%20Convolutional%20Neural%20Networks%20for%20fine%20art%20classification.pdf>Fine-tuning Convolutional Neural Networks for fine art classification</a>
+Link             : <a href=http://www.vcl.fer.hr/papers_pdf/Fine-tuning%20Convolutional%20Neural%20Networks%20for%20fine%20art%20classification.pdf>Fine-tuning Convolutional Neural Networks for fine art classification</a>
 </pre>
 <pre>
 @article{cetinic2018fine,
