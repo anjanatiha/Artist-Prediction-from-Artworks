@@ -69,39 +69,32 @@ Dataset Name            : Best Artworks of All Time
 Number of Class         : 50
 </pre>
 
-| Dataset Subtype | Number of Image | Size(MB/Megabyte)            |
-| :-------------- | --------------: | ---------------------------: |
-| **Total**       | 27,588          | 337 MB                       |
-| **Training**    | 20,670          | ---                          |
-| **Validation**  | 6,888           | ---                          |
-| **Testing**     | ---             | ---                          |
-
 | Dataset Subtype | Number of Image | Size of Images (GB/Gigabyte) |
 | :-------------- | --------------: | ---------------------------: |
-| **Total**       | 27,588          | 337 MB                       |
-| **Training**    | 20,670          | ---                          |
-| **Validation**  | 6,888           | ---                          |
-| **Testing**     | ---             | ---                          |
+| **Total**       | 16,892          | 2 GB                         |
+| **Training**    | 6,357           | ---                          |
+| **Validation**  | 2,089           | ---                          |
+| **Testing**     | 8,446           | ---                          |
 
 
 
 ### Model and Training Prameters
 | Current Parameters   | Value                                                       |
 | :------------------- | :---------------------------------------------------------- |
-| **Base Model**       | NashNetMobile                                               |
+| **Base Model**       | InceptionResNetV3                                           |
 | **Optimizers**       | Adam                                                        |
 | **Loss Function**    | Categorical Crossentropy                                    |
 | **Learning Rate**    | 0.0001                                                      |
-| **Batch Size**       | 176                                                         |                                     
-| **Number of Epochs** | 10                                                          |
-| **Training Time**    | 45 Min                                                      |
+| **Batch Size**       | 32                                                          |                                     
+| **Number of Epochs** | 15                                                          |
+| **Training Time**    | 1 hours 19 Min                                              |
 
 
 ### Model Performance Metrics (Prediction/ Recognition / Classification)
 | Dataset              | Training       | Validation    | Test      |                                 
 |:---------------------|---------------:|--------------:| ---------:|
-| **Accuracy**         | 96.47%         | 95.46%        | ---       |
-| **Loss**             | 0.1026         | 0.1385        | ---       |
+| **Accuracy**         | 98.36%         | 78.75%        | ---       |
+| **Loss**             | 0.0820         | 0.9093        | ---       |
 | **Precision**        | ---            | ---           | ---       |
 | **Recall**           | ---            | ---           | ---       |
 | **Roc-Auc**          | ---            | ---           | ---       |
@@ -110,13 +103,13 @@ Number of Class         : 50
 ### Other Experimented Model and Training Prameters
 | Parameters (Experimented) | Value                                                  |
 |:--------------------------|:------------------------------------------------------ |
-| **Base Models**           | NashNet(NashNetMobile)                                 |
+| **Base Models**           | InceptionResNetV3                                      |
 | **Optimizers**            | Adam                                                   |
 | **Loss Function**         | Categorical Crossentropy                               |
-| **Learning Rate**         | 0.0001, 0.00001, 0.000001, 0.0000001                   |
-| **Batch Size**            | 32, 64, 176                                            |                                     
-| **Number of Epochs**      | 10                                                     |
-| **Training Time**         | 45 Min                                                 |
+| **Learning Rate**         | 0.001, 0.0001                                          |
+| **Batch Size**            | 32, 64, 128                                            |                                     
+| **Number of Epochs**      | 10, 15, 100                                            |
+| **Training Time**         | 1 hours 19 Min                                         |
 
 #### Tools / Libraries
 <pre>
@@ -127,7 +120,7 @@ Libraries               : Keras, TensorFlow, NasNetMobile
 
 #### Dates
 <pre>
-Duration                : February 2019 - April 2019
-Current Version         : v1.0.0.9
-Last Update             : 03.14.2019
+Duration                : March 2019 - Current
+Current Version         : v1.0.0.2
+Last Update             : 04.21.2019
 </pre>
