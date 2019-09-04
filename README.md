@@ -9,7 +9,7 @@ Application        : Image Recognition, Image Classification, Art
 
 ### Description
 1. Detected Artists from their Artworks with Deep Learning (Convolutional Neural Network) specifically by retraining pretrained model InceptionResNetV3 completely from scratch.
-2. Before feeding data into model, preprocessed and augmented image dataset containing 16,892 images (2GB) by adding random horizontal flips, rotations and width and height shifts.
+2. Before feeding data into model, preprocessed and augmented image dataset containing 8,446 images (2GB) by adding random horizontal flips, rotations and width and height shifts.
 3. After loading pretrainied model InceptionResNetV3, added global average pooling 2D with and dense layer with 512 units followed by batch normalization, dropout layers for regulaization and activation for only dense layer. Finally, added final output layer - a dense layer with softmax activation and compiled with optimizer-Adam with learning rate-0.0001, metric-accuracy and loss-categorical crossentropy.
 4. Trained for 15 iterations and attained training accuracy 98.36% and loss(categorical crossentrpy) 0.0820 and validation accuracy of 78.75% and loss 0.9093.
 
@@ -69,10 +69,10 @@ Number of Class         : 50
 
 | Dataset Subtype | Number of Image | Size of Images (GB/Gigabyte) |
 | :-------------- | --------------: | ---------------------------: |
-| **Total**       | 16,892          | 2 GB                         |
+| **Total**       | 8,446           | 2 GB                         |
 | **Training**    | 6,357           | ---                          |
 | **Validation**  | 2,089           | ---                          |
-| **Testing**     | 8,446           | ---                          |
+| **Testing**     |                 | ---                          |
 
 
 
