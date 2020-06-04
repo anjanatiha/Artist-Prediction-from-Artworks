@@ -118,7 +118,7 @@ Libraries               : Keras, TensorFlow, InceptionResNetV3
 
 #### Dates
 <pre>
-Duration                : March 2019 - Current
+Duration                : March 2019 - Sep 2019
 Current Version         : v1.0.0.10
 Last Update             : 09.05.2019
 </pre>
